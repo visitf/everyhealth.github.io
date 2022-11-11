@@ -22,18 +22,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <img src= "007.png" style="display: block; margin: 0 auto;"></img>
         <img src= "008.png" style="display: block; margin: 0 auto;"></img>
         <img src= "009.png" style="display: block; margin: 0 auto;"></img>
-        <img id = "button" onclick="javascript:location.href='https://docs.google.com/forms/d/e/1FAIpQLScON-gFrPtzc9y8R5Rpo30djtBqjkq98rWDILvqY5O_P_B-pQ/viewform';" src= "010.png" style="display: block; margin: 0 auto;"></img>
-    </body>
-    <script>
-        let cnt = 0;
-        const button = document.getElementById("button");
-        const span = document.querySelector("span");
-        function clickCounter(){
-            cnt+=1;
-            span.innerText = `Total Click: ${cnt}`;
-            console.log(cnt);
-        }
-        button.addEventListener("click",  clickCounter);
-    </script>
+        <button type="button" class="btm_image" id="img_btn"><img src="010.png" style="display: block; margin: 0 auto;"></button>
+
+   
 
 </html>
