@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <style>
+      .jb {
+        height: 600px;
+        background-color: #eeeeee;
+        background-image: url( "images/img-01.png" );
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      .jb:hover {
+        background-color: #cccccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jb"></div>
+  </body>
+</html>
